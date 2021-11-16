@@ -73,6 +73,6 @@ vim -u NONE -c "helptags $HOME/.vim/bundle/ctrlp.vim/doc" -c q
 git clone https://github.com/mhartington/oceanic-next.git $HOME/.vim/bundle/oceanic-next
 
 # set zsh to the default shell
-echo; echo '** set ZSH as default shell.'
-echo "exec zsh" >> $HOME/.bash_profile
-exec zsh
+# echo; echo '** set ZSH as default shell.'
+# echo "exec zsh" >> $HOME/.bash_profile
+# exec zsh
